@@ -1,0 +1,43 @@
+{
+  "name": "codemirror-mode-dust",
+  "version": "1.0.0",
+  "description": "CodeMirror mode for dust templates.",
+  "main": "dist/dust.js",
+  "module": "dist/dust.mjs",
+  "jsnext:main": "dist/dust.mjs",
+  "scripts": {
+    "preversion": "rollup -c && npm run uglify",
+    "lint": "eslint index.js",
+    "uglify": "uglifyjs dist/dust.js -o dist/dust.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodewrite/codemirror-mode-dust.git"
+  },
+  "keywords": [
+    "codemirror",
+    "dust",
+    "dustjs"
+  ],
+  "author": "Levi Lewis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodewrite/codemirror-mode-dust/issues"
+  },
+  "homepage": "https://github.com/nodewrite/codemirror-mode-dust#readme",
+  "peerDependencies": {
+    "codemirror": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babelrc-rollup": "^3.0.0",
+    "eslint": "^3.14.1",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "uglifyjs": "^2.4.10"
+  }
+}
