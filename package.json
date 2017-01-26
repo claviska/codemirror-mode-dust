@@ -26,6 +26,9 @@
     "url": "https://github.com/nodewrite/codemirror-mode-dust/issues"
   },
   "homepage": "https://github.com/nodewrite/codemirror-mode-dust#readme",
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "codemirror": "^5.0.0"
   },
