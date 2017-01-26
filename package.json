@@ -1,6 +1,6 @@
 {
   "name": "codemirror-mode-dust",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CodeMirror mode for dust templates.",
   "main": "dist/dust.js",
   "module": "dist/dust.mjs",
