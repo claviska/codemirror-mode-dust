@@ -27,7 +27,9 @@
 
   ```js
   CodeMirror.fromTextArea(document.getElementById('code'), {
-    mode: 'dust',
-    base: 'htmlmixed' // an optional base mode to wrap.
+    mode: {
+      name: 'dust',
+      base: 'htmlmixed' // an optional base mode to wrap.
+    }
   });
   ```
